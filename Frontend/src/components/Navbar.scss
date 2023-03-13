@@ -36,6 +36,39 @@
       gap: 24px;
       font-family: "Montserrat", sans-serif;
 
+      .user {
+        position: relative;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+          width: 32px;
+          margin-right:20px;
+          height: 32px;
+          border-radius: 50%;
+          object-fit: cover;
+          cursor: pointer;
+        }
+
+        .options {
+          position: absolute;
+          top: 50px;
+          right: 0;
+          padding: 20px;
+          background-color: white;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          color: gray;
+          width: 150px;
+          font-size: 15px;
+        }
+      }
+
       button {
         color: white;
         padding: 10px 20px;
