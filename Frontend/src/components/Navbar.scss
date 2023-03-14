@@ -13,7 +13,7 @@
     color: black;
   }
   .container {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
@@ -88,16 +88,16 @@
   hr {
     width: 100%;
     height: 0;
-    border-radius: 0.5px solid lightgrey;
+    border-radius: 0.02px solid lightgrey;
   }
 
   .menu {
-    width: 80%;
-    padding: 10 0px;
+    width: 90%;
+    padding: 15 0px;
     display: flex;
     justify-content: space-between;
     font-weight: 300;
     color: gray;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif; 
   }
 }
