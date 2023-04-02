@@ -4,9 +4,9 @@ import "./Featured.scss";
 const Featured = () => {
   return (
     <div className="featured">
-      <div className="container">
+      <div className="container"> 
         <div className="left">
-          <h1>Find the perfect freelance services for your business</h1>
+          <h1>Find the perfect <i>freelance</i> services for your business</h1>
           <div className="search">
             <div className="searchInput">
               <img src="./img/search.png" alt="" />
