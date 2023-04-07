@@ -30,7 +30,7 @@ const Messages = () => {
           <tr className="active">
             <td>Charley Sharp</td>
             <td>
-              <Link to="/message/123" className="link">
+              <Link to="/messages/123" className="link">
                 {message.substring(0, 100)}...
               </Link>
             </td>
@@ -43,7 +43,7 @@ const Messages = () => {
             <td>John Doe</td>
 
             <td>
-              <Link to="/message/123" className="link">
+              <Link to="/messages/123" className="link">
                 {message.substring(0, 100)}...
               </Link>
             </td>
@@ -55,7 +55,7 @@ const Messages = () => {
           <tr>
             <td>Elinor Good</td>
             <td>
-              <Link to="/message/123" className="link">
+              <Link to="/messages/123" className="link">
                 {message.substring(0, 100)}...
               </Link>
             </td>
@@ -64,7 +64,7 @@ const Messages = () => {
           <tr>
             <td>Garner David </td>
             <td>
-              <Link to="/message/123" className="link">
+              <Link to="/messages/123" className="link">
                 {message.substring(0, 100)}...
               </Link>
             </td>
